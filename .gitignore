@@ -1,0 +1,25 @@
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+*.swo
+*.swp
+
+# Project specific
+/config/db.php
+*.log
+
+# Dependencies (if any)
+/vendor/
+/node_modules/
+
+# Environment files
+.env
+.env.local
+
+# Database dumps (don't commit these)
+*.sql
+*.bak
